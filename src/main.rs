@@ -16,7 +16,7 @@ impl system::Config for Runtime {
 }
 
 impl balances::Config for Runtime {
-    type AccountId = String;
+    
     type Balance = u128;
 }
 
